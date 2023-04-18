@@ -6,6 +6,7 @@ import { accountInfo } from "$lib/trpc/routes/account-info";
 import { asset } from "$lib/trpc/routes/asset";
 import { balances } from "$lib/trpc/routes/balances";
 import { currentSlot } from "$lib/trpc/routes/current-slot";
+import { domains } from "$lib/trpc/routes/domains";
 import { price } from "$lib/trpc/routes/price";
 import { rawTransaction } from "$lib/trpc/routes/raw-transaction";
 import { token } from "$lib/trpc/routes/token";
@@ -22,6 +23,7 @@ export const router = t.router({
     balances,
     blockTransactions,
     currentSlot,
+    domains,
     price,
     rawTransaction,
     token,

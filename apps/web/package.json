@@ -36,6 +36,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "@bonfida/spl-name-service": "^0.1.67",
         "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
         "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
         "@helius-labs/xray": "*",
@@ -60,6 +61,7 @@
         "svelte-intersection-observer": "^0.10.0",
         "trpc-svelte-query-adapter": "^2.0.0",
         "trpc-sveltekit": "^3.3.1",
+        "tweetnacl": "^1.0.3",
         "zod": "^3.20.6"
     }
 }

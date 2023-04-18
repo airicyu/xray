@@ -48,6 +48,13 @@
                         (window.location.href = `/account/${$page.params.account}/tokens`)}
                     >Tokens</button
                 >
+                <button
+                    class="tab tab-bordered"
+                    class:tab-active={$page.url.pathname.endsWith("/domains")}
+                    on:click={() =>
+                        (window.location.href = `/account/${$page.params.account}/domains`)}
+                    >Domains</button
+                >
             </div>
             {#if !$page.url.pathname.endsWith("/tokens")}
                 <button
